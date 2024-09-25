@@ -1,0 +1,23 @@
+#second-section {
+    padding: 5em;
+    min-height: 75em;
+    background-color: var(--header-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-section h2 {
+    font-size: 4em;
+    color: var(--secondary-color);
+    letter-spacing: 0.05em;
+}
+
+#second-section p {
+    font-size: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+    max-width: 40em;
+    letter-spacing: 0.05em;
+}

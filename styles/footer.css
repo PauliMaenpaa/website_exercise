@@ -1,0 +1,13 @@
+#footer {
+    min-height: 10em;
+    background-color: var(--main-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer p {
+    font-size: 2em;
+    color: var(--main-color);
+    letter-spacing: 0.05em;
+}

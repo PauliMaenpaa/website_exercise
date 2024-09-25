@@ -1,0 +1,23 @@
+#main {
+    min-height: 75em;
+    background-color: var(--main-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+}
+
+#main h1 {
+    font-size: 10em;
+    color: var(--main-color);
+    letter-spacing: 0.05em;
+}
+
+#main p {
+    font-size: 4em;
+    color: var(--main-color);
+    letter-spacing: 0.05em;
+    max-width: 40em;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+#nav {
+    height: auto;
+    background-color: var(--header-bg);
+    top: 0;
+    position: sticky;
+}
+
+#nav-ul-list {
+    list-style-type: none;
+    margin: auto;
+    min-height: 10em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5em;
+}
+
+#nav-ul-list li {
+    font-size: 2em;
+    color: var(--main-color);
+}
+
+#nav-ul-list li a {
+    color: var(--main-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    letter-spacing: 0.05em;
+}
+
+#nav-ul-list li a:hover {
+    color: var(--main-bg);
+}
